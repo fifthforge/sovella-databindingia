@@ -1,0 +1,11 @@
+<section [class]="userNameBox">
+    <h2>USERNAME</h2>
+    <input (keyup)=" ButtonActivityFilter()" type="text" [(ngModel)]="username">
+    <br>
+    <br>
+    <button (click)="EraseInputText()" [disabled]="buttonDeactivated" type="button" class="btn btn-secondary">Secondary</button>
+    <br>
+    <p style="margin-top: 1rem;">username: {{ username }}</p>
+
+
+</section>

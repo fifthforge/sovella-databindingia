@@ -1,0 +1,16 @@
+.userNameBox {
+    padding: 2rem;
+    margin: 10rem auto 0 auto;
+    max-width: 400px;
+    border: solid black 2px;
+    transition: all 4s ease-out;
+}
+
+.userNameBox2 {
+    padding: 2rem;
+    margin: 10rem auto 0 auto;
+    max-width: 400px;
+    border: solid blanchedalmond 60px;
+    transition: all 4s ease-out;
+
+}
